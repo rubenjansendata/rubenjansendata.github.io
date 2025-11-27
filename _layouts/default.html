@@ -2,12 +2,16 @@
 <html lang="en">
   {% include head.html %}
   <body>
+      {% include gtm-body.html %}
       {% include header.html %}
       <section id="about">
         {% include about.html %}
       </section>
       <section id="projects">
         {% include projects.html %}
+      </section>
+      <section id="services">
+        {% include services.html %}
       </section>
         {{ content }}
       {% include footer.html %}
